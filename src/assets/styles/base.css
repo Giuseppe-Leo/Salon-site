@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="radio"] {
+    -webkit-appearance: radio !important;
+    appearance: radio !important;
+}
+
+@media (min-width: 1028px) {
+    input[type="radio"] {
+        -webkit-appearance: radio !important;
+        appearance: radio !important;
+    }
+}
