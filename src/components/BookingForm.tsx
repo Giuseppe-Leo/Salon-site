@@ -254,7 +254,8 @@ const BookingForm: React.FC = () => {
                 value={phoneNumber}
                 onChange={(e) => setPhoneNumber(e.target.value)}
                 required
-                pattern="^(?:(?:\+44\s?|0)(?:\d{10}|\(0\)\s?\d{4}\s?\d{6}|\d{3}\s?\d{3}\s?\d{4}|\d{4}\s?\d{6}|\d{5}\s?\d{5}))$"
+                pattern="^(?:(?:\+44\s?|0)(?:\d{10}|\(0\)\s?\d{4}\s?\d{6}|\d{3}\s?\d{3}\s?\d{4}|\d{4}\s?\d{6}|\d{5}\s?\d{5}))|
+                        (?:\+39\s?(?:\d{10}|\d{2}\s?\d{4}\s?\d{4}|\d{3}\s?\d{3}\s?\d{4}|\d{4}\s?\d{4}|\d{5}\s?\d{4}))"
                 className="block w-full rounded-lg border-gray-300 mt-2 md:mt-3 lg:mt-4 xl:mt-5 p-2 md:p-3 lg:p-4 xl:p-5 text-base md:text-lg lg:text-xl"
               />
               <div className="flex justify-end mt-4 md:mt-6 lg:mt-8 xl:mt-10">
